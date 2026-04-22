@@ -12,7 +12,7 @@
   - 使用 Emgu.CV (OpenCV) 进行模板匹配
   - 5种预警色块检测（宣战、对战、糟糕、不良、白名）
   - 灰度匹配 + 颜色验证的双重识别策略
-- **OCR 文字识别**：自动识别玩家角色名（Windows.Media.Ocr）
+- **OCR 文字识别**：自动识别玩家角色名（PaddleOCRSharp）
 - **实时网络通信**：
   - TCP Socket 连接服务器
   - 预警数据实时推送
@@ -50,7 +50,7 @@
 | .NET 8.0 | 运行时框架 |
 | Windows Forms | UI 框架 |
 | Emgu.CV 4.9.0 | 图像处理、模板匹配 |
-| Windows.Media.Ocr | OCR 文字识别 |
+| PaddleOCRSharp | OCR 文字识别 |
 | TCP Socket | 网络通信 |
 | System.Text.Json | JSON 序列化 |
 
@@ -67,7 +67,7 @@ EVE预警/
 │   ├── OcrProcessor.cs         # OCR 处理
 │   ├── TcpClientManager.cs     # TCP 客户端管理
 │   ├── CropSelectForm.cs       # 框选裁切窗体
-│   └── *.png                   # 模板资源（1~5.png, Local.png等）
+│   └── *.png                   # 模板资源（1~5.png）
 │
 ├── EVE预警服务器/              # 服务器项目
 │   ├── Program.cs              # 程序入口
