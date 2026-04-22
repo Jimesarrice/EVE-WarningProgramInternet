@@ -40,5 +40,7 @@ nul
 # User specific
 *.userprefs
 *.pidb
-bin/
-obj/
+
+# Test projects
+TestColorDetection/
+TestRegionExtraction/

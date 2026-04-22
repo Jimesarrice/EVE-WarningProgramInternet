@@ -50,7 +50,7 @@
 | .NET 8.0 | 运行时框架 |
 | Windows Forms | UI 框架 |
 | Emgu.CV 4.9.0 | 图像处理、模板匹配 |
-| PaddleOCRSharp 4.0.0 | OCR 文字识别 |
+| Windows.Media.Ocr | OCR 文字识别 |
 | TCP Socket | 网络通信 |
 | System.Text.Json | JSON 序列化 |
 
@@ -73,9 +73,6 @@ EVE预警/
 │   ├── Program.cs              # 程序入口
 │   ├── Main.cs                 # 服务器主窗体
 │   └── Main.Designer.cs        # 服务器设计
-│
-├── TestColorDetection/         # 颜色检测测试工具
-│   └── Program.cs              # 测试程序
 │
 └── EVE预警.sln                 # Visual Studio 解决方案
 ```
