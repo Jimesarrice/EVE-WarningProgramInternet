@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Local.png">
+      <LogicalName>Local.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player.png">
+      <LogicalName>Player.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1.png">
+      <LogicalName>1.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2.png">
+      <LogicalName>2.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3.png">
+      <LogicalName>3.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4.png">
+      <LogicalName>4.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5.png">
+      <LogicalName>5.png</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Emgu.CV" Version="4.9.0.5494" />
+    <PackageReference Include="Emgu.CV.runtime.windows" Version="4.9.0.5494" />
+    <PackageReference Include="PaddleOCRSharp" Version="4.0.0" />
+  </ItemGroup>
+
+</Project>

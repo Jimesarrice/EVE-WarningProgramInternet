@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EVE预警", "EVE预警\EVE预警.csproj", "{9F53A03F-83A8-40F2-B86A-F7A3891638E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EVE预警服务器", "EVE预警服务器\EVE预警服务器.csproj", "{06DD9474-CC42-4279-9B9E-42D0581418F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F53A03F-83A8-40F2-B86A-F7A3891638E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F53A03F-83A8-40F2-B86A-F7A3891638E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F53A03F-83A8-40F2-B86A-F7A3891638E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F53A03F-83A8-40F2-B86A-F7A3891638E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06DD9474-CC42-4279-9B9E-42D0581418F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06DD9474-CC42-4279-9B9E-42D0581418F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06DD9474-CC42-4279-9B9E-42D0581418F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06DD9474-CC42-4279-9B9E-42D0581418F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9DB20E8-646F-4001-9839-C188A09947DF}
+	EndGlobalSection
+EndGlobal
